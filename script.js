@@ -56,7 +56,6 @@ function draw(time) {
     const delta = Math.min((time - lastTime) / 16.67, 2);
     lastTime = time;
 
-    // Black translucent layer creates the fading trail.
     ctx.fillStyle = "rgba(0, 0, 0, 0.10)";
     ctx.fillRect(0, 0, width, height);
 
@@ -92,7 +91,7 @@ function draw(time) {
             ctx.fillText(chars[col][i], x, y);
         }
 
-        // Occasional glyph mutation for the flicker effect.
+        // Occasional glyph mutation for the flicker
         if (Math.random() < 0.15 * delta) {
             const index = randomInt(0, lengths[col] - 1);
             chars[col][index] = randomGlyph();
