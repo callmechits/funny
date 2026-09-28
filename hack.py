@@ -24,8 +24,10 @@ def rgb(r: int, g: int, b: int) -> str:
     return f"\033[38;2;{r};{g};{b}m"
 
 RESET = "\033[0m"
-GLYPHS = "01アイウエオカキクケコサシスセソタチツテト&%^')@" \ #Change your characters right here
-         "0123456789ABCDEF!@#$%^&*"
+GLYPHS = {
+    "01アイウエオカキクケコサシスセソタチツテト&%^')@" \ 
+         "0123456789ABCDEF!@#$%^&*"     
+} #Change your characters right here
 
 def random_glyph() -> str:
     return random.choice(GLYPHS)
