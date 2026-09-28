@@ -1,3 +1,4 @@
+#This can be pasted directly into VSC
 #!/usr/bin/env python3
 """
 matrix_rain.py
