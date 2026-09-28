@@ -4,4 +4,6 @@ This is just a funny project that I learned. It's just a digital rain, just like
 You can copy the hack.py file into VSC and it works straight away, otherwise copying the rest of the files is fine asw.
 You can clone this repo and change the characters as per your liking as well as the colors to have fun with the screen.
 
+I set colors in style.css, the rain is coded in script.js.
+
 Until next time!
