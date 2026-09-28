@@ -33,7 +33,7 @@ body {
     justify-content: center;
     pointer-events: none;
     text-align: center;
-    color: #EDE9E8;
+    color: #E8E4C9;
     text-shadow: 0 0 12px #EDE9E8;
     opacity: 0.9;
 }
@@ -42,6 +42,7 @@ body {
     margin: 0;
     font-size: clamp(2.5rem, 8vw, 7rem);
     letter-spacing: 0.25em;
+    color: #E8E4C9;
 }
 
 .overlay p {
