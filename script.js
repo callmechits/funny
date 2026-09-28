@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 
 const glyphs =
     "01アイウエオカキクケコサシスセソタチツテト&%^')@" +
-    "0123456789ABCDEF!@#$%^&*";
+    "0123456789ABCDEF!@#$%^&*"; //Change your characters here
 
 let width;
 let height;
