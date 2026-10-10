@@ -1,4 +1,5 @@
 HI, glad to have you here!
+https://callmechits.github.io/funny/
 
 This is just a funny project that I learned. It's just a digital rain, just like this - https://en.wikipedia.org/wiki/Digital_rain
 You can copy the hack.py file into VSC and it works straight away, otherwise copying the rest of the files is fine asw.
